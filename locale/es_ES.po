@@ -1,0 +1,55 @@
+# 
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "error:stock.supply.by.product.wizard:"
+msgid ""
+"The computed quantity method is not configured. Please, configure it before "
+"run this wizard."
+msgstr ""
+"El método de cálculo de cantidad no está configurado. Por favor, configurelo"
+" antes de usar este asistente."
+
+msgctxt "field:stock.configuration,compute_quantity_method:"
+msgid "Compute Quantity Method"
+msgstr "Método de cálculo de cantidad"
+
+msgctxt "field:stock.supply.by.product.wizard.start,id:"
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:stock.supply.by.product.wizard.start,supplier:"
+msgid "Supplier"
+msgstr "Proveedor"
+
+msgctxt "field:stock.supply.by.product.wizard.start,warehouse:"
+msgid "Warehouse"
+msgstr "Almacén"
+
+msgctxt "model:ir.action,name:stock_supply_by_product_wizard"
+msgid "Create Purchase Request"
+msgstr "Crear solicitud de compra"
+
+msgctxt "model:stock.supply.by.product.wizard.start,name:"
+msgid "Stock Supply By Product Wizard Start"
+msgstr "Inicio asistente abastecimiento de estoc por producto"
+
+msgctxt "selection:stock.configuration,compute_quantity_method:"
+msgid "Forecast Quantity"
+msgstr "Cantidad prevista"
+
+msgctxt "selection:stock.configuration,compute_quantity_method:"
+msgid "Quantity"
+msgstr "Cantidad"
+
+msgctxt "view:stock.supply.by.product.wizard.start:"
+msgid "Create Purchase Requests from Supplier"
+msgstr "Creación de solicitudes de compra desde proveedor"
+
+msgctxt "wizard_button:stock.supply.by.product.wizard,start,end:"
+msgid "Cancel"
+msgstr "Cancelar"
+
+msgctxt "wizard_button:stock.supply.by.product.wizard,start,request:"
+msgid "Create"
+msgstr "Crear"
