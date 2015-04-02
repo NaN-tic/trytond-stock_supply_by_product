@@ -1,5 +1,6 @@
-======================================================
-Stock. Generación de pedidos de compra desde productos
-======================================================
+==========================================================
+Stock. Generación de solicitudes de compra desde productos
+==========================================================
 
-Genera pedidos de compra desde las vistas de productos.
+Genera solicitudes de compra desde las vistas de productos mediante un
+asistente.
