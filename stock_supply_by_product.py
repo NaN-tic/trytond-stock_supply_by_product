@@ -50,15 +50,6 @@ class StockSupplyByProductWizard(Wizard):
             ])
     request = StateAction('stock_supply.act_purchase_request_form')
 
-    @classmethod
-    def __setup__(cls):
-        super(StockSupplyByProductWizard, cls).__setup__()
-        cls._error_messages.update({
-                'compute_quantity_method_error': 'The computed quantity '
-                'method is not configured. Please, configure it before run '
-                'this wizard.',
-                })
-
     def do_request(self, action):
         pool = Pool()
         PurchaseRequest = pool.get('purchase.request')
@@ -70,8 +61,6 @@ class StockSupplyByProductWizard(Wizard):
         products = Products.browse(products)
         supplier = self.start.supplier
         compute_quantity_method = Configuration(1).compute_quantity_method
-        if not compute_quantity_method:
-            self.raise_user_error('compute_quantity_method_error')
 
         vlist = []
         for product in products:

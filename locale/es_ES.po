@@ -2,14 +2,6 @@
 msgid ""
 msgstr "Content-Type: text/plain; charset=utf-8\n"
 
-msgctxt "error:stock.supply.by.product.wizard:"
-msgid ""
-"The computed quantity method is not configured. Please, configure it before "
-"run this wizard."
-msgstr ""
-"El método de cálculo de cantidad no está configurado. Por favor, configurelo"
-" antes de usar este asistente."
-
 msgctxt "field:stock.configuration,compute_quantity_method:"
 msgid "Compute Quantity Method"
 msgstr "Método de cálculo de cantidad"
