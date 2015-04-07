@@ -13,3 +13,7 @@ class Configuration:
             ('quantity', 'Quantity'),
             ('forecast_quantity', 'Forecast Quantity'),
             ], 'Compute Quantity Method'))
+
+    @staticmethod
+    def default_compute_quantity_method():
+        return 'quantity'
