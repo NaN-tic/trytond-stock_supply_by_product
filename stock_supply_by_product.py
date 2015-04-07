@@ -64,6 +64,8 @@ class StockSupplyByProductWizard(Wizard):
 
         vlist = []
         for product in products:
+            if not product.purchasable:
+                continue
             quantity = getattr(product, compute_quantity_method)
             values = {
                 'product': product.id,
