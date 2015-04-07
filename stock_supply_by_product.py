@@ -48,7 +48,7 @@ class StockSupplyByProductWizard(Wizard):
             Button('Cancel', 'end', 'tryton-cancel'),
             Button('Create', 'request', 'tryton-ok', default=True),
             ])
-    request = StateAction('stock_supply_sale.act_purchase_request')
+    request = StateAction('stock_supply.act_purchase_request_form')
 
     @classmethod
     def __setup__(cls):
