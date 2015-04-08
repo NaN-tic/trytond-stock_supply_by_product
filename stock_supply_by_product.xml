@@ -18,5 +18,9 @@ copyright notices and license terms. -->
             <field name="model">product.product,-1</field>
             <field name="action" ref="stock_supply_by_product_wizard"/>
         </record>
+        <record model="ir.action-res.group" id="stock_supply_by_product_wizard-group_purchase_request">
+            <field name="action" ref="stock_supply_by_product_wizard"/>
+            <field name="group" ref="stock_supply.group_purchase_request"/>
+        </record>
     </data>
 </tryton>
