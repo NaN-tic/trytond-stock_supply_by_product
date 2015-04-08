@@ -2,5 +2,6 @@
 Stock. Generación de solicitudes de compra desde productos
 ==========================================================
 
-Genera solicitudes de compra desde las vistas de productos mediante un
-asistente.
+En las variantes de productos disponemos de un asistente "Crear solicitudes de compra"
+que nos permite generar solicitudes directamente en el producto. Este asistente,
+tendrán acceso los usuarios del grupo "Solicitud de compra".
