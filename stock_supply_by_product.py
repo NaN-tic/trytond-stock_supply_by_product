@@ -53,12 +53,12 @@ class StockSupplyByProductWizard(Wizard):
     def do_request(self, action):
         pool = Pool()
         PurchaseRequest = pool.get('purchase.request')
-        Products = pool.get('product.template')
+        Product = pool.get('product.product')
         Configuration = pool.get('stock.configuration')
 
         context = Transaction().context
         products = context.get('active_ids')
-        products = Products.browse(products)
+        products = Product.browse(products)
         supplier = self.start.supplier
         compute_quantity_method = Configuration(1).compute_quantity_method
 
