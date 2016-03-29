@@ -5,10 +5,10 @@ from trytond.pool import PoolMeta
 from trytond.pyson import Eval, Bool
 
 __all__ = ['Configuration']
-__metaclass__ = PoolMeta
 
 
 class Configuration:
+    __metaclass__ = PoolMeta
     __name__ = 'stock.configuration'
     compute_quantity_method = fields.Property(fields.Selection([
             ('quantity', 'Quantity'),

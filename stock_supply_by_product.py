@@ -9,10 +9,10 @@ from trytond.wizard import Wizard, StateView, Button, StateAction
 
 __all__ = ['PurchaseRequest', 'StockSupplyByProductWizardStart',
     'StockSupplyByProductWizard']
-__metaclass__ = PoolMeta
 
 
 class PurchaseRequest:
+    __metaclass__ = PoolMeta
     __name__ = 'purchase.request'
 
     @classmethod
